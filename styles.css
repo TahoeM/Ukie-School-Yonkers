@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('banner-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about, .programs, .enrollment, .schedule, .news, .contact {
+    padding: 2rem 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.programs ul {
+    list-style-type: square;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 1rem;
+}
+
+.contact input, .contact textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
